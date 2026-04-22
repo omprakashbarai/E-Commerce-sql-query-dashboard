@@ -1,100 +1,127 @@
-# E-Commerce-sql-query-dashboard
-This project contains a structured E-commerce SQL Dataset built for learning and improving SQL skills using PostgreSQL. It is designed for beginner to advanced SQL practice, covering real-world business scenarios such as customers, orders, products, and sales analysis.
-E-commerce SQL Practice Dataset (PostgreSQL)
+# E-commerce SQL Practice Dataset (PostgreSQL)
 
-This project contains a structured E-commerce SQL Dataset built for learning and improving SQL skills using PostgreSQL. It is designed for beginner to advanced SQL practice, covering real-world business scenarios such as customers, orders, products, and sales analysis.
+This project contains an E-commerce SQL Dataset built using PostgreSQL for learning and improving SQL skills. The dataset simulates a real-world online shopping platform and is designed for SQL from intermediate to advanced level.
 
-The dataset includes multiple related tables that simulate an online shopping platform, making it ideal for practicing:
+It includes multiple related tables such as customers, products, orders, and order items, making it useful for practicing real business scenarios and analytical queries.
 
-SQL Queries
-Joins
-Aggregations
-Filtering & Sorting
-Group By & Having
-Subqueries
-Window Functions
-CTEs
-Revenue Analysis
-Customer Behavior Analysis
-Database Structure
+---
 
-The dataset consists of the following tables:
+# Project Purpose
 
-1. Customers
+The purpose of this project is to:
+
+- Practice SQL queries using PostgreSQL
+- Improve database understanding
+- Learn relational database concepts
+- Build SQL portfolio projects
+- Prepare for Data Analyst and SQL interviews
+- Perform sales and customer analysis
+
+---
+
+# Database Tables
+
+## 1. Customers Table
 
 Stores customer-related information.
 
 Columns:
+- customer_id
+- name
+- email
+- city
+- signup_date
 
-customer_id
-name
-email
-city
-signup_date
-2. Products
+---
 
-Contains product catalog information.
+## 2. Products Table
 
-Columns:
-
-product_id
-product_name
-category
-price
-3. Orders
-
-Stores customer order records.
+Contains product details available in the store.
 
 Columns:
+- product_id
+- product_name
+- category
+- price
 
-order_id
-customer_id
-order_date
-status
-4. Order Items
+---
 
-Contains product-level order details.
+## 3. Orders Table
+
+Stores customer order information.
 
 Columns:
+- order_id
+- customer_id
+- order_date
+- status
 
-order_item_id
-order_id
-product_id
-quantity
-Purpose of the Project
+---
 
-This dataset was created for:
+## 4. Order Items Table
 
-Practicing SQL from Intermediate to Advanced level
-Building SQL portfolio projects
-Preparing for Data Analyst interviews
-Understanding relational database concepts
-Learning business-oriented SQL analysis
-SQL Concepts Covered
-Intermediate Level
-SELECT statements
-WHERE clause
-ORDER BY
-GROUP BY
-Aggregate Functions
-INNER JOIN / LEFT JOIN
-Advanced Level
-Subqueries
-Common Table Expressions (CTEs)
-CASE Statements
-Window Functions
-Ranking Functions
-Revenue & Sales Analysis
-Pro Level
-Customer Lifetime Value
-Revenue Trends
-Top Products Analysis
-Customer Segmentation
-Business Insights Reporting
-Sample Business Questions
-Which city has the most customers?
-What is the total revenue generated?
-Who are the top spending customers?
-Which products are sold the most?
-What is the monthly sales trend?
-Which category generates the highest revenue?
+Contains detailed product-level order records.
+
+Columns:
+- order_item_id
+- order_id
+- product_id
+- quantity
+
+---
+
+# SQL Skills Covered
+
+## Intermediate Level
+- SELECT Statements
+- WHERE Clause
+- ORDER BY
+- GROUP BY
+- Aggregate Functions
+- JOIN Operations
+
+## Advanced Level
+- Subqueries
+- CASE Statements
+- Common Table Expressions (CTEs)
+- Window Functions
+- Ranking Functions
+
+## Pro Level
+- Revenue Analysis
+- Customer Behavior Analysis
+- Product Performance Analysis
+- Business Reporting Queries
+- Trend Analysis
+
+---
+
+# Sample Practice Questions
+
+- Find total customers by city
+- Calculate total revenue
+- Find top spending customers
+- Identify best-selling products
+- Analyze order trends
+- Calculate category-wise revenue
+
+---
+
+# Tools Used
+
+- PostgreSQL
+- SQL
+- pgAdmin 
+- GitHub
+
+---
+
+# Project Goal
+
+The goal of this project is to create a structured SQL practice environment that helps improve SQL querying skills and prepare for real-world analytics scenarios.
+
+---
+
+# Author
+
+Created for SQL practice and Data Analytics learning using PostgreSQL.
