@@ -1,0 +1,21 @@
+product_id,product_name,category,price
+1,Laptop,Electronics,55000.00
+2,Phone,Electronics,20000.00
+3,Shoes,Clothing,3000.00
+4,T-shirt,Clothing,800.00
+5,Sofa,Home,25000.00
+6,Table,Home,7000.00
+7,Cricket Bat,Sports,2000.00
+8,Football,Sports,1500.00
+9,Headphones,Electronics,2500.00
+10,Watch,Accessories,4000.00
+11,Bag,Accessories,1200.00
+12,Jeans,Clothing,2200.00
+13,Microwave,Home,10000.00
+14,TV,Electronics,45000.00
+15,Keyboard,Electronics,1500.00
+16,Mouse,Electronics,800.00
+17,Bed,Home,30000.00
+18,Jacket,Clothing,3500.00
+19,Cycle,Sports,12000.00
+20,Dumbbells,Sports,2500.00
